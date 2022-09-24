@@ -1,12 +1,12 @@
-# Project name
+# Nom de projet
 
 
 ## Description
 
-Project description
+Description du projet
 
-## Workflow guidelines
+## Directives de flux de travail
 
-Issues: (docs/issues.md)
+Tâches: [wiki/issues.md]
 
-Branching: (docs/git_flow.md)
+Branches et soumission de travail: [wiki/git_flow.md]
