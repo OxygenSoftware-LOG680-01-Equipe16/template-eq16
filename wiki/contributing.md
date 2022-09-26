@@ -1,14 +1,11 @@
 # Contributing Guide
 
-Write something nice and instructive as an intro. Talk about what kind of contributions you are interested in.
 
-> Welcome! We love receiving contributions from our community, so thanks for stopping by! There are many ways to contribute, including submitting bug reports, improving documentation, submitting feature requests, reviewing new submissions, or contributing code that can be incorporated into the project.
+Toutes les demandes d'extraction et suggestions sont très appréciées et encouragent
 
-This document describes our development process. Following these guidelines shows that you respect the time and effort of the developers managing this project. In return, you will be shown respect in addressing your issue, reviewing your changes, and incorporating your contributions.
+> Bienvenue ! Nous aimons recevoir des contributions de notre communauté, alors merci d'être passé! Il existe de nombreuses façons de contribuer, notamment en soumettant des rapports de bogue, en améliorant la documentation, en soumettant des demandes de fonctionnalités, en examinant de nouvelles soumissions ou en contribuant au code qui peut être intégré au projet.
 
-If you're not looking for some kinds of contributions, note that up front:
-
-> Please, don't use the issue tracker for support questions. Instead use: a, b, or Stack Overflow.
+Ce document décrit notre processus de développement. Le respect de ces directives montre que vous respectez le temps et les efforts des développeurs qui gèrent ce projet. En retour, vous serez respecté dans la résolution de votre problème, l'examen de vos modifications et l'intégration de vos contributions.
 
 **Table of Contents:**
 
@@ -22,109 +19,54 @@ If you're not looking for some kinds of contributions, note that up front:
 	1. [Getting Started](#getting-started)
 	1. [Finding an Issue!](#finding-an-issue)
 	1. [Development Process](#development-process)
-	1. [Building the Project](#building-the-project)
-	1. [Testing](#testing)
-	1. [Style Guidelines](#style-guidelines)
-	1. [Code Formatting Rules](#code-formatting)
-	1. [Whitespace Cleanup](#whitespace-cleanup)
 1. [Pull Request Guidelines](#pull-request-process)
-	1. [Review Process](#review-process)
-	1. [Addressing Feedback](#addressing-feedback)
-1. [Community](#community)
+	1. [Processus de vérification](#processus-de-vérification)
+	1. [Répondre aux commentaires](#répondre-aux-commentaires)
 
 
 ## Code of Conduct
 
-If you have a code of conduct document:
-
-> By participating in this project, you agree to abide by our [Code of Conduct][0]. We expect all contributors to follow the [Code of Conduct][0] and to treat fellow humans with respect.
-
-If not, lay some ground rules down up front.
+Aller lire le Code of Conduct
 
 ## Important Resources
 
-Include Short Links to Important Resources:
-
-* docs: handbook / road map
-* bugs: issue tracker / bug report tool
-* comms: forum link, developer list, IRC/email
 * wiki
+* projets
 
 ## Questions
 
-How do you prefer people to ask questions? Via an issue? Is there an IRC channel, Google group, or other way to get help? Should issues that are questions get a specific label? Can they email you directly?
+si vous avez des questions, n'hésitez pas à nous contacter avec les issues.
 
 ## Feature Requests
 
-Provide information on the process for requesting new features. Do you have a specific label that should be applied? Is sign-off needed?
-
-If you have a road map, goals, works in progress, or a development philosophy, make sure to share the information. Try to make sure that users have enough information to evaluate whether a feature request is appropriate for your project up front. Examples:
-
-> Please create a new GitHub issue for any major changes and enhancements that you wish to make. Please provide the feature you would like to see, why you need it, and how it will work. Discuss your ideas transparently and get community feedback before proceeding.
-
-> Major Changes that you wish to contribute to the project should be discussed first in an GitHub issue that clearly outlines the changes and benefits of the feature.
-
-> Small Changes can directly be crafted and submitted to the GitHub Repository as a Pull Request. See the section about Pull Request Submission Guidelines, and for detailed information the core development documentation.
+Utiliser les templates et les labels de Feature Requests
 
 ## Reporting Bugs
 
-**If you find a security vulnerability, do NOT open an issue. Email EMAIL@DOMAIN.COM instead.**
-
-Ask contributors to check before filing a new issue. Also, provide any references to FAQs or debugging guides that you might have.
-
-> Before you submit your issue, please [search the issue archive][6] - maybe your question or issue has already been identified or addressed.
-
-Tell contributors how to file a useful bug report. What information do you need? (e.g. version, architecture, log files, expected behavior, observed behavior).
-
-> If you find a bug in the source code, you can help us by [submitting an issue to our GitHub issue tracker][6]. Even better, you can submit a Pull Request with a fix.
-
-Does your project use an issue template? Provide instructions and expectations for filling it out.
-
-Have you seen an awesome issue report? Link to it for others to view!
+Utiliser les templates et les labels de Reporting Bugs
 
 ## Improving Documentation
 
-Include notes for how users can improve the documentation.
-
-> Should you have a suggestion for the documentation, you can open an issue and outline the problem or improvement you have - however, creating the doc fix yourself is much better!
-
-> If you want to help improve the docs, it's a good idea to let others know what you're working on to minimize duplication of effort. Create a new issue (or comment on a related existing one) to let others know what you're working on. If you're making a small change (typo, phrasing) don't worry about filing an issue first.
-
-> For large fixes, please build and test the documentation before submitting the PR to be sure you haven't accidentally introduced any layout or formatting issues.
-
-```
-Provide instructions on building and viewing documentation
-```
+Utiliser les templates et les labels Improving Documentation
 
 ## Contributing Code
-
-This section is used to get new contributors up and running with dependencies, development, testing, style rules, formatting rules, and other things they should know.
-
-If you have a label for beginner issues, talk about that here so they know where to look:
-
-> Unsure where to begin contributing to Atom? You can start by looking through these beginner and help-wanted issues: Beginner issues - issues which should only require a few lines of code, and a test or two. Help wanted issues - issues which should be a bit more involved than beginner issues.
-
-Working on your first open source project or pull request? Here are some helpful tutorials:
 
 * [How to Contribute to an Open Source Project on GitHub][2]
 * [Make a Pull Request][3]
 * [First Timers Only][4]
 
+
 ### Getting Started
 
-Install these dependencies:
+Suivez le Guide installation
 
-```
-with some examples
-```
+Fournissez des instructions pour votre flux de travail (par exemple, bifurquez le référentiel)
 
-Provide some instructions for your work flow (e.g. fork the repository)
+> Vous devrez bifurquer le référentiel principal pour travailler sur vos modifications. Accédez simplement à notre page GitHub et cliquez sur le bouton "Fork" en haut. Une fois que vous avez forké le référentiel, vous pouvez cloner votre nouveau référentiel et commencer à apporter des modifications.
 
-> You will need to fork the main repository to work on your changes. Simply navigate to our GitHub page and click the "Fork" button at the top. Once you've forked the repository, you can clone your new repository and start making edits.
+> Dans git, il est préférable d'isoler chaque sujet ou fonctionnalité dans une « branche thématique ». Alors que les commits individuels vous permettent de contrôler la façon dont les petites modifications individuelles sont apportées au code, les branches sont un excellent moyen de regrouper un ensemble de commits tous liés à une fonctionnalité, ou d'isoler différents efforts lorsque vous travaillez sur plusieurs sujets à la fois. en même temps.
 
-> In git it is best to isolate each topic or feature into a “topic branch”. While individual commits allow you control over how small individual changes are made to the code, branches are a great way to group a set of commits all related to one feature together, or to isolate different efforts when you might be working on multiple topics at the same time.
-
-> While it takes some experience to get the right feel about how to break up commits, a topic branch should be limited in scope to a single issue
+> Même s'il faut une certaine expérience pour avoir une bonne idée de la façon de diviser les commits, une branche thématique doit être limitée à un seul problème
 
 ```
 # Checkout the master branch - you want your new branch to come from master
@@ -137,133 +79,58 @@ git branch newfeature
 git checkout newfeature
 ```
 
-For more information on the GitHub fork and pull-request processes, [please see this helpful guide][5].
-
 ### Finding an Issue
 
-The list of outstanding feature requests and bugs can be found on our on our [GitHub issue tracker][6]. Pick an unassigned issue that you think you can accomplish and add a comment that you are attempting to do it.
+Choisissez un problème non attribué que vous pensez pouvoir résoudre et ajoutez un commentaire indiquant que vous essayez de le faire.
 
-Provide notes on different kinds of issues or labels
-
-> `starter` labeled issues are deemed to be good low-hanging fruit for newcomers to the project
-> `help-wanted` labeled issues may be more difficult than `starter` and may include new feature development
-> `doc` labeled issues must only touch content in the `docs` folder.
+Fournir des notes sur différents types de problèmes ou d'étiquettes
 
 ### Development Process
 
-What is your development process?
+Quel est votre processus de développement ?
 
-> This project follows the [git flow](http://nvie.com/posts/a-successful-git-branching-model/) branching model of product development.
+> Ce projet suit le modèle de développement de produit en [git flow](http://nvie.com/posts/a-successful-git-branching-model/).
 
-Talk about branches people should work on. Specifically, where is the starting point? `master`, `development`, etc.
+Parlez des branches sur lesquelles les gens devraient travailler. Concrètement, où est le point de départ ? `maître`, `développement`, etc.
 
-> You should be using the master branch for the most stable release; please review [release notes](https://github.com/openopps/openopps-platform/releases) regularly. We do releases every week or two and send out notes. If you want to keep up with the latest changes, we work in the `dev` branch.  If you are using dev, keep an eagle-eye on commits and/or join our daily stand-up.
+> Vous devriez utiliser la branche master pour la version la plus stable ; veuillez consulter régulièrement les [notes de version](https://github.com/openopps/openopps-platform/releases). Nous faisons des publications toutes les semaines ou toutes les deux semaines et envoyons des notes. Si vous voulez suivre les dernières modifications, nous travaillons dans la branche `dev`. Si vous utilisez dev, gardez un œil sur les commits et/ou rejoignez notre stand-up quotidien.
 
-### Building the Project
+## Processus de demande d'extraction
 
-What branches should be work be started off of?
+Avez-vous des conventions d'étiquetage ?
 
-Include instructions on how to build the project.
+Ajoutez des notes pour pousser votre branche :
 
-```
-with some examples
-```
-
-Provide instructions on adding a new file/module to the build
-
-```
-with some examples
-```
-
-Keep your tests as simple as possible.
-
-### Testing
-
-If you add code you need to add tests! We’ve learned the hard way that code without tests is undependable. If your pull request reduces our test coverage because it lacks tests then it will be rejected.
-
-Provide instructions for adding new tests. Provide instructions for running tests.
-
-```
-with examples
-```
-
-### Style Guidelines
-
-If your code has any style guidelines, add them here or provide links to relevant documents. If you have an automated checker, make sure to provide instructions on how to run it.
-
-### Code Formatting
-
-If your code has any formatting guidelines that aren't covered in the style guidelines above, add them here.
-
-If you're using an auto-formatting tool like clang-format
-
-```
-Provide instructions for running the formatting tool
-```
-
-### Whitespace Cleanup
-
-Don’t mix code changes with whitespace cleanup! If you are fixing whitespace, include those changes separately from your code changes. If your request is unreadable due to whitespace changes, it will be rejected.
-
-> Please submit whitespace cleanups in a separate pull request.
-
-### Git Commit Guidelines
-
-Do you have any guidelines for your commit messages? Include them here.
-
-> The first line of the commit log must be treated as as an email
-subject line.  It must be strictly no greater than 50 characters long.
-The subject must stand on its own and not only make external
-references such as to relevant bug numbers.
-
-> The second line must be blank.
-
-> The third line begins the body of the commit message (one or more
-paragraphs) describing the details of the commit.  Paragraphs are each
-separated by a blank line.  Paragraphs must be word wrapped to be no
-longer than 76 characters.
-
-> The last part of the commit log should contain all "external
-references", such as which issues were fixed.
-
-> For further notes about git commit messages, [please read this blog post][7].
-
-## Pull Request Process
-
-Do you have any labeling conventions?
-
-Add notes for pushing your branch:
-
-> When you are ready to generate a pull request, either for preliminary review, or for consideration of merging into the project you must first push your local topic branch back up to GitHub:
+> Lorsque vous êtes prêt à générer une pull request, soit pour un examen préliminaire, soit pour envisager de fusionner dans le projet, vous devez d'abord repousser votre branche thématique locale vers GitHub :
 
 ```
 git push origin newfeature
 ```
 
-Include a note about submitting the PR:
+Inclure une note sur la soumission du PR :
 
-> Once you've committed and pushed all of your changes to GitHub, go to the page for your fork on GitHub, select your development branch, and click the pull request button. If you need to make any adjustments to your pull request, just push the updates to your branch. Your pull request will automatically track the changes on your development branch and update.
+> Une fois que vous avez validé et poussé toutes vos modifications sur GitHub, accédez à la page de votre fork sur GitHub, sélectionnez votre branche de développement et cliquez sur le bouton pull request. Si vous avez besoin d'apporter des modifications à votre pull request, envoyez simplement les mises à jour à votre branche. Votre pull request suivra automatiquement les changements sur votre branche de développement et la mise à jour.
 
-1. Ensure any install or build dependencies are removed before the end of the layer when doing a
-   build.
-2. Update the README.md with details of changes to the interface, this includes new environment
-   variables, exposed ports, useful file locations and container parameters.
-3. Increase the version numbers in any examples files and the README.md to the new version that this
-   Pull Request would represent. The versioning scheme we use is [SemVer](http://semver.org/).
-4. You may merge the Pull Request in once you have the sign-off of two other developers, or if you
-   do not have permission to do that, you may request the second reviewer to merge it for you.
+1. Assurez-vous que toutes les dépendances d'installation ou de construction sont supprimées avant la fin de la couche lors d'une
+   construire.
+2. Mettez à jour le fichier README.md avec les détails des modifications apportées à l'interface, cela inclut le nouvel environnement
+   variables, ports exposés, emplacements de fichiers utiles et paramètres de conteneur.
+3. Augmentez les numéros de version dans tous les exemples de fichiers et le fichier README.md à la nouvelle version
+   Pull Request représenterait. Le schéma de version que nous utilisons est [SemVer](http://semver.org/).
+4. Vous pouvez fusionner la demande d'extraction une fois que vous avez l'approbation de deux autres développeurs, ou si vous
+   n'avez pas la permission de le faire, vous pouvez demander au deuxième examinateur de le fusionner pour vous.
 
-### Review Process
+### Processus de vérification
 
-Who reviews it? Who needs to sign off before it’s accepted? When should a contributor expect to hear from you? How can contributors get commit access, if at all?
+Qui l'examine ? Qui doit signer avant qu'il ne soit accepté ? Quand un contributeur doit-il s'attendre à avoir de vos nouvelles ? Comment les contributeurs peuvent-ils obtenir un accès au commit, le cas échéant ?
 
-> The core team looks at Pull Requests on a regular basis in a weekly triage meeting that we hold in a public Google Hangout. The hangout is announced in the weekly status updates that are sent to the puppet-dev list. Notes are posted to the Puppet Community community-triage repo and include a link to a YouTube recording of the hangout. After feedback has been given we expect responses within two weeks. After two weeks we may close the pull request if it isn't showing any activity.
+> L'équipe principale examine régulièrement les demandes d'extraction lors d'une réunion de triage hebdomadaire que nous organisons dans un Google Hangout public. Le hangout est annoncé dans les mises à jour de statut hebdomadaires qui sont envoyées à la liste puppet-dev. Les notes sont publiées sur le référentiel de triage de la communauté Puppet Community et incluent un lien vers un enregistrement YouTube du hangout. Une fois les commentaires reçus, nous attendons des réponses dans les deux semaines. Après deux semaines, nous pouvons fermer la pull request si elle ne montre aucune activité.
 
-> Except for critical, urgent or very small fixes, we try to leave pull requests open for most of the day or overnight if something comes in late in the day, so that multiple people have the chance to review/comment.  Anyone who reviews a pull request should leave a note to let others know that someone has looked at it.  For larger commits, we like to have a +1 from someone else on the core team and/or from other contributor(s).  Please note if you reviewed the code or tested locally -- a +1 by itself will typically be interpreted as your thinking its a good idea, but not having reviewed in detail.
+> À l'exception des correctifs critiques, urgents ou très mineurs, nous essayons de laisser les pull requests ouvertes presque toute la journée ou toute la nuit si quelque chose arrive tard dans la journée, afin que plusieurs personnes aient la possibilité de réviser/commenter. Quiconque examine une pull request doit laisser une note pour informer les autres que quelqu'un l'a examinée. Pour les commits plus importants, nous aimons avoir un +1 de quelqu'un d'autre dans l'équipe principale et/ou d'autres contributeurs. Veuillez noter que si vous avez examiné le code ou testé localement - un +1 en lui-même sera généralement interprété comme si vous pensiez que c'était une bonne idée, mais que vous n'aviez pas examiné en détail.
 
-Perhaps also provide the steps your team will use for checking a PR. Or discuss the steps run on your CI server if you have one. This will help developers understand how to investigate any failures or test the process on their own.
+Peut-être aussi fournir les étapes que votre équipe utilisera pour vérifier un PR. Ou discutez des étapes exécutées sur votre serveur CI si vous en avez un. Cela aidera les développeurs à comprendre comment enquêter sur les échecs ou tester le processus par eux-mêmes.
 
-### Addressing Feedback
+### Répondre aux commentaires
 
 Once a PR has been submitted, your changes will be reviewed and constructive feedback may be provided. Feedback isn't meant as an attack, but to help make sure the highest-quality code makes it into our project. Changes will be approved once required feedback has been addressed.
 
@@ -291,31 +158,3 @@ git push -f
 ```
 
 Note that this will overwrite the old branch on the server, so make sure you are happy with your changes first!
-
-## Community
-
-Do you have a mailing list, Google group, slack channel, IRC channel? Link to them here.
-
-> Anyone actively contributing to or using OpenOpps should join our [Mailing List](https://groups.google.com/forum/#!forum/openopps-platform).
-We also have a public Slack chat team. If you're interested in following along with the development process or have questions, feel free to [join us](https://openopps.slack.com).
-
-Include Other Notes on how people can contribute
-
-* You can help us answer questions our users have here:
-* You can help build and design our website here:
-* You can help write blog posts about the project by:
-* You can help with newsletters and internal communications by:
-
-* Create an example of the project in real world by building something or
-showing what others have built.
-* Write about other people’s projects based on this project. Show how
-it’s used in daily life. Take screenshots and make videos!
-
-[0]: CODE_OF_CONDUCT.md
-[1]: style_guidelines.md
-[2]: https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github
-[3]: http://makeapullrequest.com/
-[4]: http://www.firsttimersonly.com
-[5]: https://gist.github.com/Chaser324/ce0505fbed06b947d962
-[6]: link/to/your/project/issue/tracker
-[7]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
