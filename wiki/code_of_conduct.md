@@ -1,69 +1,69 @@
-# Contributor Code of Conduct
+# Code de conduite des contributeurs
 
-**Table of Contents:**
+**Table des matières:**
 
-* [Summary](#summary)
-* [Our Standards](#our-standards)
-* [Our Responsibilities](#our-responsibilities)
+* [Sommaire](#sommaire)
+* [Nos Normes](#nos-normes)
+* [Nos Responsabilités](#nos-responsabilités)
 * [Scope](#scope)
 * [Enforcement](#enforcement)
 * [Attribution](#attribution)
 
-**Version**: 1.0.2
+**Version**: 1.0.3
 
-## Summary
+## Sommaire
 
-As contributors and maintainers of Embedded Artistry projects, we will respect everyone who contributes by posting issues, updating documentation, submitting pull requests, providing feedback in comments, and any other activities.
+En tant que contributeurs et mainteneurs des projets OxygenSoftware-LOG680-01-Equipe16, nous respecterons tous ceux qui contribuent en publiant des problèmes, en mettant à jour la documentation, en soumettant des demandes d'extraction, en fournissant des commentaires dans les commentaires et toute autre activité.
 
-Communication regarding Embedded Artistry projects through any channel must be constructive and never resort to personal attacks, trolling, public or private harassment, insults, or other unprofessional conduct. Courtesy and respect shall be extended to everyone involved in this project. Our experiences as individuals differs widely, and as such contributors are expected to be respectful of differing viewpoints and ideas.
+La communication concernant les projets OxygenSoftware-LOG680-01-Equipe16 via n'importe quel canal doit être constructive et ne jamais recourir à des attaques personnelles, à la pêche à la traîne, au harcèlement public ou privé, aux insultes ou à toute autre conduite non professionnelle. La courtoisie et le respect doivent être étendus à toutes les personnes impliquées dans ce projet. Nos expériences en tant qu'individus diffèrent considérablement et, à ce titre, les contributeurs sont censés respecter les points de vue et les idées divergents.
 
-We expect all contributors to uphold our standards of conduct. If any member of the community violates this code of conduct, the Embedded Artistry team and project maintainers will take action. We reserve the right to remove issues, comments, and PRs that do not comply with our conduct standards. Repeated or significant offenses will result in blocked accounts and disassociation with our projects and the Embedded Artistry community.
+Nous attendons de tous les contributeurs qu'ils respectent nos normes de conduite. Si un membre de la communauté enfreint ce code de conduite, l'équipe Embedded Artistry et les responsables du projet prendront des mesures. Nous nous réservons le droit de supprimer les problèmes, les commentaires et les relations publiques qui ne sont pas conformes à nos normes de conduite. Des infractions répétées ou importantes entraîneront le blocage des comptes et la dissociation avec nos projets et la communauté OxygenSoftware-LOG680-01-Equipe16
 
-If you are subject to or witness unacceptable behavior, or have any other concerns, please email us at contact@embeddedartistry.com.
+Si vous êtes sujet ou témoin d'un comportement inacceptable, ou si vous avez d'autres préoccupations, veuillez créer un issues.
 
-## Our Standards
+## Nos Normes
 
-Examples of behavior that contributes to creating a positive environment
-include:
+Exemples de comportements qui contribuent à créer un environnement positif
+comprendre:
 
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Focusing on what is best for the community
-* Showing empathy towards other community members
+* Utiliser un langage accueillant et inclusif
+* Être respectueux des points de vue et des expériences différents
+* Accepter avec grâce les critiques constructives
+* Se concentrer sur ce qui est le mieux pour la communauté
+* Faire preuve d'empathie envers les autres membres de la communauté
 
-Examples of unacceptable behavior by participants include:
+Voici des exemples de comportements inacceptables de la part des participants :
 
-* The use of sexualized language or imagery and unwelcome sexual attention or
-  advances
-* Trolling
-* Insults or other derogatory comments
-* Personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or electronic address, without explicit permission
-* Other conduct which could reasonably be considered inappropriate in a professional setting
+* L'utilisation d'un langage ou d'images sexualisés et d'une attention ou d'une attention sexuelle importune
+  avances
+* À la traîne
+* Insultes ou autres commentaires désobligeants
+* Attaques personnelles ou politiques
+* Harcèlement public ou privé
+* Publier des informations privées d'autrui, telles qu'une adresse physique ou électronique, sans autorisation explicite
+* Autre conduite qui pourrait raisonnablement être considérée comme inappropriée dans un cadre professionnel
 
-## Our Responsibilities
+## Nos Responsabilités
 
-Project maintainers are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.
+Les mainteneurs du projet sont chargés de clarifier les normes de comportement acceptable et sont tenus de prendre des mesures correctives appropriées et justes en réponse à tout cas de comportement inacceptable.
 
-Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.
+Les mainteneurs du projet ont le droit et la responsabilité de supprimer, modifier ou rejeter les commentaires, les commits, le code, les modifications du wiki, les problèmes et autres contributions qui ne sont pas alignés sur ce code de conduite, ou de bannir temporairement ou définitivement tout contributeur pour d'autres comportements qui qu'ils jugent inappropriés, menaçants, offensants ou nuisibles.
 
 ## Scope
 
-This Code of Conduct applies both within project spaces and in public spaces when an individual is representing the project or its community. Examples of representing a project or community include using an official project e-mail address, posting via an official social media account, discussions in the Embedded Artistry forum, or acting as an appointed representative at an online or offline event. Representation of a project may be further defined and clarified by project maintainers.
+Ce code de conduite s'applique à la fois dans les espaces du projet et dans les espaces publics lorsqu'un individu représente le projet ou sa communauté. Les exemples de représentation d'un projet ou d'une communauté incluent l'utilisation d'une adresse e-mail officielle de projet, la publication via un compte de réseau social officiel, des discussions sur le forum OxygenSoftware-LOG680-01-Equipe16 ou le fait d'agir en tant que représentant désigné lors d'un événement en ligne ou hors ligne. La représentation d'un projet peut être davantage définie et clarifiée par les mainteneurs du projet.
 
 ## Enforcement
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting Embedded Artistry at contact@embeddedartistry.com.
+Les cas de comportement abusif, harcelant ou autrement inacceptable peuvent être signalés en contactant OxygenSoftware-LOG680-01-Equipe16.
 
-All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. We are obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
+Toutes les plaintes seront examinées et investiguées et donneront lieu à une réponse jugée nécessaire et appropriée aux circonstances. Nous sommes tenus de maintenir la confidentialité à l'égard du rapporteur d'un incident. De plus amples détails sur les politiques d'application spécifiques peuvent être publiés séparément.
 
-Project maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project's leadership.
+Les mainteneurs du projet qui ne suivent pas ou n'appliquent pas le code de conduite de bonne foi peuvent faire face à des répercussions temporaires ou permanentes déterminées par d'autres membres de la direction du projet.
 
 ## Attribution
 
-This Code of Conduct is adapted from the [Contributor Covenant][homepage], [version 1.4][version]
+Ce Code de Conduite est adapté du [Contributor Covenant][homepage], [version 1.4][version]
 
 [homepage]: https://www.contributor-covenant.org
 [version]: https://www.contributor-covenant.org/version/1/4/code-of-conduct.html
